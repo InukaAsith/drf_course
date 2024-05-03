@@ -1,0 +1,28 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "def hello():\n   return \"Hello DRF!\"\nif __name__ == \"__main__\":\n   server.run(host='0.0.0.0')",
+        "detail": "server",
+        "documentation": {}
+    },
+    {
+        "label": "server",
+        "kind": 5,
+        "importPath": "server",
+        "description": "server",
+        "peekOfCode": "server = Flask(__name__)\n@server.route(\"/\")\ndef hello():\n   return \"Hello DRF!\"\nif __name__ == \"__main__\":\n   server.run(host='0.0.0.0')",
+        "detail": "server",
+        "documentation": {}
+    }
+]
